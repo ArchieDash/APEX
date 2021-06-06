@@ -7,7 +7,7 @@ public class AccountHandler {
             acct.Name = 'Acme Inc ' + counter;
             acct.AccountNumber = 'A000' + counter;
             addAccounts.add(acct);
-            counter = counter + 1;
+            counter += 1;
         }
     insert addAccounts;
     }
